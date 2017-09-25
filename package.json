@@ -33,10 +33,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fyang1024/grenache-nodejs-proxy.git"
+    "url": "git+https://github.com/bitfinexcom/grenache-nodejs-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/fyang1024/grenache-nodejs-proxy/issues"
+    "url": "https://github.com/bitfinexcom/grenache-nodejs-proxy/issues"
   },
-  "homepage": "https://github.com/fyang1024/grenache-nodejs-proxy#readme"
+  "homepage": "https://github.com/bitfinexcom/grenache-nodejs-proxy#readme"
 }

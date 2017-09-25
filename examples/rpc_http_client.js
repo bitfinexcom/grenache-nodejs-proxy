@@ -1,4 +1,3 @@
-/* eslint-disable no-trailing-spaces */
 'use strict'
 
 const Http = require('grenache-nodejs-http')

@@ -1,10 +1,10 @@
 'use strict'
 
-const Http = require('grenache-nodejs-http')
-const Link = require('grenache-nodejs-link')
-const Peer = Http.PeerRPCClient
+const GrHttp = require('grenache-nodejs-http')
+const GrLink = require('grenache-nodejs-link')
+const Peer = GrHttp.PeerRPCClient
 
-const link = new Link({
+const link = new GrLink({
   grape: 'http://127.0.0.1:30001'
 })
 link.start()
@@ -70,4 +70,3 @@ sleep(1000).then(() => {
     console.log(err, data)
   })
 })
-

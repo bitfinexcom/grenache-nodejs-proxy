@@ -1,12 +1,12 @@
 'use strict'
 
 const Grenache = require('./../')
-const Link = require('grenache-nodejs-link')
+const GrLink = require('grenache-nodejs-link')
 const PeerRPCProxy = Grenache.PeerRPCProxy
 
 const _ = require('lodash')
 
-const link = new Link({
+const link = new GrLink({
   grape: 'http://127.0.0.1:30001'
 })
 link.start()

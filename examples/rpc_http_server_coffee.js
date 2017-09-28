@@ -1,12 +1,12 @@
 'use strict'
 
-const Http = require('grenache-nodejs-http')
-const Link = require('grenache-nodejs-link')
-const Peer = Http.PeerRPCServer
+const GrHttp = require('grenache-nodejs-http')
+const GrLink = require('grenache-nodejs-link')
+const Peer = GrHttp.PeerRPCServer
 
 const _ = require('lodash')
 
-const link = new Link({
+const link = new GrLink({
   grape: 'http://127.0.0.1:30001'
 })
 link.start()

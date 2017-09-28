@@ -1,10 +1,10 @@
 'use strict'
 
-const Ws = require('grenache-nodejs-ws')
-const Link = require('grenache-nodejs-link')
-const Peer = Ws.PeerRPCClient
+const GrWs = require('grenache-nodejs-ws')
+const GrLink = require('grenache-nodejs-link')
+const Peer = GrWs.PeerRPCClient
 
-const link = new Link({
+const link = new GrLink({
   grape: 'http://127.0.0.1:30001'
 })
 link.start()

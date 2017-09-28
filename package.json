@@ -18,8 +18,7 @@
   },
   "main": "index.js",
   "directories": {
-    "example": "examples",
-    "test": "test"
+    "example": "examples"
   },
   "devDependencies": {
     "mocha": "^3.4.1",

@@ -1,0 +1,39 @@
+{
+  "name": "grenache-nodejs-proxy",
+  "version": "0.0.1",
+  "description": "Granache Nodejs Proxy implementation",
+  "author": "Fei Yang <fyang1024@gmail.com>",
+  "keywords": [
+    "grenache",
+    "kademlia",
+    "nodejs",
+    "micro-services"
+  ],
+  "dependencies": {
+    "grenache-nodejs-base": "^0.5.0",
+    "grenache-nodejs-http": "^0.5.0",
+    "grenache-nodejs-link": "^0.5.0",
+    "grenache-nodejs-ws": "^0.5.0",
+    "lodash": "~4.17.4"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/grenache-nodejs-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/grenache-nodejs-proxy/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/grenache-nodejs-proxy#readme"
+}

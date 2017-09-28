@@ -25,9 +25,7 @@
     "standard": "^10.0.2"
   },
   "scripts": {
-    "test": "npm run lint && npm run unit",
-    "lint": "standard",
-    "unit": "mocha -R spec"
+    "test": "standard"
   },
   "license": "MIT",
   "repository": {
